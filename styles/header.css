@@ -13,6 +13,50 @@
     align-items: center;
     position: relative;
   }
+  .contaniner{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .contaniner{
+    display: flex;
+    align-items: center;
+  }
+  .contaniner__imagem{
+    padding: 1em;
+  }
+  .lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width:  60vw;
+  }
+  .contaniner___botao: :checked~.lista-menu{
+    display block;
+
+  }
+  .lista-menu__titulo,
+  .lista-menu__item{
+    padding: 1em;
+    background-color: red;
+  }
+  .lista-menu__titulo{
+    color: black;
+    font-weight: 700;
+  }
+  .lista-menu__link{
+    background: blue;
+    -webkit-background-clip: text ; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+  }
+  .contaniner___botao{
+    display: none;
+  }
+
 
 
 

@@ -1,5 +1,12 @@
 @import url("styles/header.css");
 
+:root{
+    --fonte-principal:"poppins"
+}
+
 body{
-    background-color: blue
+    background-color: blue;
+    font-family: var (--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
