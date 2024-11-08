@@ -1,0 +1,33 @@
+.banner{
+    background :rgb(182, 1, 182);
+    color:white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+.banner___titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+.banner__texto{
+    font-weight: 500;
+    margin: 1em 0;
+
+}
+.banner___pesquisa{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+.banner___pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    background: url("../img/Aulabooks/Lupa.svg") no-repeat;
+    background-position: 1em;
+    
+}
