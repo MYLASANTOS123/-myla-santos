@@ -13,18 +13,12 @@
     align-items: center;
     position: relative;
   }
-  .contaniner{
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-  }
-  .contaniner{
+  
+  .container{
     display: flex;
     align-items: center;
   }
-  .contaniner__imagem{
+  .container__imagem{
     padding: 1em;
   }
   .lista-menu{
@@ -33,8 +27,8 @@
     top: 100%;
     width:  60vw;
   }
-  .contaniner___botao: :checked~.lista-menu{
-    display block;
+  .container___botao:checked~.lista-menu{
+    display:block;
 
   }
   .lista-menu__titulo,
@@ -53,7 +47,7 @@
     background-clip: text;
     text-transform: uppercase;
   }
-  .contaniner___botao{
+  .container___botao{
     display: none;
   }
 
